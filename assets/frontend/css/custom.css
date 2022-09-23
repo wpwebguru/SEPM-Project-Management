@@ -1,0 +1,474 @@
+
+/*products Section*/
+#autosave_success{
+    color: #06bd06;
+    font-size: 18px;
+    font-weight: bold;
+}
+#sepm_product_completed_msg{
+	color: #06bd06;
+    font-size: 18px;
+    font-weight: bold;
+}
+.autosave_sec {
+    height: 30px !important;
+	margin-bottom: 3px !important;
+}
+select#sepm_products_type {
+    width: 140px !important;
+}
+
+/*description Section*/
+.sepm_project_description p{
+    font-size: 20px;
+    color: rgba(0,0,0,0.73);
+    font-weight: 500;
+}
+.alert_warning{
+    background-color: #fff3cd;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #ecd280;
+    border-radius: 0.25rem;
+}
+.sepm_project_description .sepm_box_shadow{
+    box-shadow: 0 2px 10px rgb(0 0 0 / 19%), 0 0px 0px rgb(0 0 0 / 15%);
+    padding: 30px 40px;
+    border-radius: 5px;
+}
+#sepm_upload_file_name .sepm_file_name{
+    margin-bottom: 5px !important;
+}
+#sepm_upload_file_name h4.sepm_product_name{
+    margin-bottom: 7px !important;
+	margin-top: 15px !important;
+}
+
+/*Completion Section*/
+#sepm_complettion_section, .sepm_project_description{
+	padding-top: 15px;
+}
+.sepm_icon .fa-check{
+    color: #1bb13d !important;
+    font-weight: bold !important;
+    font-size: 20px;
+}
+.comp_desc{
+    font-size: 18px;
+    color: rgba(0,0,0,0.81);
+}
+.sepm_icon .fa-xmark{
+    font-size: 20px;
+    color: rgb(255,0,0);
+    font-weight: bold;
+    
+}
+.comp_item_name a{
+    font-size: 19px;
+    color: #2973ce;
+    text-decoration: none;
+    font-weight: 600;
+}
+.comp_item_name a:hover{
+    color: #135099;
+    text-decoration: underline;
+}
+.comp_item_name .fa-xmark, .comp_item_name .fa-check{
+	padding-right: 10px;
+}
+
+
+
+/*Comment Sectiion*/
+.sepm_comments_form textarea.sepm_comment_box{
+    width: 100% !important;
+    min-height: 180px !important;
+    max-height: 220px !important;
+    height: auto !important;
+    resize: none !important;
+	
+}
+.sepm_comments_form .sepm_btn{
+    float: right;
+    margin-top: 20px;
+}
+.success_comments{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+.sepm_message_sec{
+    height: 40px;
+    padding: 5px 0px;
+}
+.all_comments{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.comment_user_name{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 5px !important;
+}
+span.datetime{
+    font-size: 15px !important;
+    color: rgba(0,0,0,0.50) !important;
+    font-weight: 400 !important;
+    padding-left: 10px;
+}
+p.sepm_comment_message{
+    font-size: 17px !important;
+    color: rgba(0,0,0,0.75);
+}
+tr.sepm_comment_info td{
+   vertical-align: top !important;
+    text-align: left;
+    border: none !important;
+}
+tr.sepm_comment_info{
+    border-bottom: 1px solid #0000001b;
+}
+tr.sepm_comment_info:last-child{
+    border-bottom: none;
+}
+.sepm_comments_content{
+    padding: 20px 50px 10px 10px;
+    border: 1px dashed rgba(196,196,196,0.61);
+    border-radius: 5px;
+}
+.sepm_comment_user_avater{
+    margin-top: 10px;
+    border-radius: 50px !important;
+    border: 1px solid rgba(0,0,0,0.35) !important;
+    box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%) !important;
+}
+
+
+
+/*Edit Project tab*/
+.edit_project_sub_content{
+    padding-top: 30px;
+}
+#sepm_sub_tab{
+    border: none !important;
+}
+#sepm_sub_tab .panel-heading{
+    background-color: #fff !important;
+    padding: 30px 10px;
+    border: none !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.19), 0 0px 0px rgba(0,0,0,0.15);
+}
+#sepm_sub_tab .panel-heading ul li a:hover{
+    border-bottom: 2px solid #0c5dab !important;
+    color: #0c5dab;
+}
+#sepm_sub_tab .panel-heading ul li a{
+    color: #000 !important;
+}
+#sepm_sub_tab .nav-tabs>li.active>a,
+#sepm_sub_tab .nav-tabs>li.active>a:hover,
+#sepm_sub_tab .nav-tabs>li.active>a:focus {
+	color: #0c5dab;
+	background-color: #fff;
+	border: none !important;
+	border-bottom: 2px solid #0c5dab !important;
+	cursor: pointer !important;
+}
+#sepm_sub_tab .nav-tabs>.open>a,
+#sepm_sub_tab .nav-tabs>.open>a:hover,
+#sepm_sub_tab .nav-tabs>.open>a:focus,
+#sepm_sub_tab .nav-tabs>li>a:hover,
+#sepm_sub_tab .nav-tabs>li>a:focus {
+	color: #0c5dab;
+	background-color: #fff;
+	border-color: transparent;
+}
+span.p_delete, span.sub_delete, span.build_delete, span.electrician_delete, span.financial_delete, span.product_delete {
+    cursor: pointer;
+	color: tomato;
+}
+
+/*CSS for Edit Project*/
+
+.sepm_edit_project_head{
+    padding-top: 10px;
+}
+.sepm_address_info{
+	font-size: 22px;
+    padding-left: 10px;
+	text-transform: capitalize;
+}
+.sepm_info_box span{
+	padding: 0px 10px;
+	font-size: 15px;
+	
+}
+.sepm_info_box span a{
+	color: #2973ce;
+	text-decoration: none;
+}
+.sepm_info_box span a:hover, .sepm_agent_phone a:hover{
+	text-decoration: underline;
+}
+.sepm_info_box .sepm_name{
+	font-weight: 600;
+	font-size: 16px;
+	color: #000;
+	text-transform: capitalize;
+}
+.sepm_agent_avater {
+    border-radius: 50px !important;
+}
+.sepm_agent_name, .sepm_agent_phone{
+	margin-bottom: 0px !important;
+}
+.sepm_agent_img{
+	padding: 0px !important;
+}
+.sepm_agent_name{
+	font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.sepm_agent_phone a{
+	color: #2973ce;
+	text-decoration: none;
+	font-size: 16px;
+}
+.sepm_agent_info_box, .sepm_agent_info_box tr, .sepm_agent_info_box td{
+    border: none !important;
+}
+.sepm_agent_info_box{
+	margin-bottom: 0px !important;
+}
+
+/*CSS for All Projects page*/
+.sepm_project_title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.sepm_project_title:hover, .sepm_contact_info a:hover{
+    text-decoration: underline;
+    color: #428bca;
+}
+.sepm_all_project_data tbody tr td, .sepm_all_project_data tbody tr td p‍{
+    vertical-align: middle;
+	color: #777;
+	font-size: 14px;
+}
+.sepm_contact_info a{
+    color: #2973ce;
+}
+.sepm_email_icon:before{
+	content: ' ';
+	background-image: url('svg/email_icon.svg');
+    background-size: 16px 16px;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+.sepm_phone_icon:before{
+	content: ' ';
+	background-image: url('svg/telephone.svg');
+    background-size: 16px 16px;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+
+}
+.sepm_no_found{
+    margin: 30px 0px;
+}
+
+
+
+
+
+/*CSS for New Project Tab*/
+#sepm_specifications input[type=checkbox]{
+	position: relative;
+}
+.sepm_required{
+	color: red;
+}
+.sepm_new_project .form-label{
+	font-size: 18px;
+	font-weight: 600;
+}
+.sepm_new_project .sepm_btn, .sepm_btn_style .sepm_btn{
+    background: #0c5dab;
+    color: #fff;
+    border-radius: 3px;
+}
+.sepm_new_project .sepm_btn:hover, .sepm_btn_style .sepm_btn:hover{
+    background: #094986;
+    color: #fff;
+}
+
+/*Dashboard CSS Start*/
+.dash_activity .panel-primary{
+	border: none;
+}
+.dash_activity .panel-heading {
+	background-color: #e2edfe !important;
+	display: inline-block;
+	border-radius: 5px;
+}
+.dash_activity .with-nav-tabs.panel-primary .nav-tabs>li.active>a, .dash_activity .with-nav-tabs.panel-primary .nav-tabs>li.active>a:hover, .dash_activity .with-nav-tabs.panel-primary .nav-tabs>li.active>a:focus {
+	color: #fff;
+	background-color: #0c5dab;
+	border-color: #428bca;
+	border-bottom-color: transparent;
+}
+.dash_activity .panel.with-nav-tabs .panel-heading {
+	padding: 0px;
+}
+.dash_activity .nav-tabs>li>a{
+	margin-right:0px;
+}
+.dash_activity .with-nav-tabs.panel-primary .nav-tabs>li>a{
+	color: #0c5dab;
+}
+.sepm_h1{
+	text-transform: capitalize;
+	font-size: 38px;
+}
+.sepm_dash_content{
+	min-height: 350px;
+}
+.sepm_dash_content .col-sm-5, .sepm_dash_content .col-sm-7{
+	border: 1px solid #0000000a;
+	border-radius: 5px;
+}
+.sepm_dash_content .col-sm-5{
+	margin-right: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	padding: 30px 50px;
+}
+.sepm_dash_content .col-sm-5 h3{
+	font-size: 22px;
+}
+.sepm_dash_content .col-sm-5 p{
+	font-size: 18px;
+	line-height: 1em;
+	padding-left: 20px;
+}
+.sepm_dash_content .col-sm-7{
+	margin-left: 18px;
+	max-width: 55% !important;
+	min-width: 52% !important;
+	width: auto !important;
+	padding: 30px 50px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.sepm_wel_msg {
+	padding: 50px 30px;
+	margin-bottom: 40px;
+    margin-top: 20px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 10px rgba(0,0,0,0.20);
+	border-radius: 5px;
+}
+.sepm_space{
+	height: 30px;
+}
+
+/*Dashboard CSS End*/
+
+/*Tab CSS*/
+.panel.with-nav-tabs .panel-heading {
+	padding: 5px 5px 0 5px;
+}
+
+.panel-heading {
+	background-color: #0c5dab !important;
+}
+
+.panel.with-nav-tabs .nav-tabs {
+	border-bottom: none;
+}
+
+.panel.with-nav-tabs .nav-justified {
+	margin-bottom: -1px;
+}
+
+
+/********************************************************************/
+
+
+/*** PANEL PRIMARY ***/
+
+.with-nav-tabs.panel-primary .nav-tabs>li {
+	padding: 0px 0px;
+}
+.panel .active a{
+	border-radius: 4px;
+}
+.with-nav-tabs.panel-primary .nav-tabs>li>a,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:focus {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>.open>a,
+.with-nav-tabs.panel-primary .nav-tabs>.open>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>.open>a:focus,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:focus {
+	color: #fff;
+	background-color: #0c5dab;
+	border-color: transparent;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.active>a,
+.with-nav-tabs.panel-primary .nav-tabs>li.active>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li.active>a:focus {
+	color: #0c5dab;
+	background-color: #fff;
+	border-color: #428bca;
+	border-bottom-color: transparent;
+	cursor: pointer !important;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu {
+	background-color: #0c5dab;
+	border-color: #0c5dab;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>li>a {
+	color: #fff;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>li>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>li>a:focus {
+	background-color: #0c5dab;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>.active>a,
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>.active>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>.active>a:focus {
+	background-color: #0c5dab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
